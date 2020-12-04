@@ -1,0 +1,201 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.btn {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+
+/* Title Section */
+
+#title .container-fluid {
+  padding: 2% 15% 7%;
+  text-align: left;
+}
+
+/* Headings */
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Download Button */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+  top: 15%;
+}
+
+.title-text {
+  position: relative;
+  top: 2em;
+  padding-bottom: 5%;
+}
+
+/* Features */
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.features-para {
+  color: #8f8f8f;
+}
+
+.feature-box {
+  padding: 2%;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+#features {
+  position: relative;
+}
+
+/* Testimonial Section */
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#testimonials .colored-section {
+  background-color: #ef8172;
+}
+
+#press .white-section {
+  background-color: #eeeeee;
+  padding: 3%;
+}
+
+.press-logo {
+  width: 60%;
+  margin: 20px;
+}
+
+
+/* Pricing Section */
+
+#pricing {
+  padding: 75px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.dog-breed {
+  font-size: 1.5rem;
+}
+
+/* CTA Section */
+
+.cta-button {
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+    line-height: 1.2;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    margin-top: 13%;
+  }
+
+  #pricing {
+    text-align: center;
+  }
+
+  .testimonial-text {
+    font-size: 2.5rem;
+    line-height: 1.5;
+  }
+
+  .press-logo {
+    width: 50%;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .press-logo {
+    width: 25%;
+    margin: 10px;
+  }
+}

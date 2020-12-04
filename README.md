@@ -1,2 +1,1 @@
-# tindog
-Project for the Bootstrap lessons.
+TinDog Starting Files
